@@ -1,0 +1,41 @@
+{
+  "status": "passed",
+  "checks": [
+    {
+      "condition": "same",
+      "kind": "complete session",
+      "imu_records": 4060,
+      "truth_rows": 12096,
+      "common_time_span_s": 100.791668
+    },
+    {
+      "condition": "different",
+      "kind": "complete session",
+      "imu_records": 30418,
+      "truth_rows": 15209,
+      "common_time_span_s": 152.07985496520996
+    },
+    {
+      "condition": "same",
+      "kind": "10-second excerpt",
+      "imu_records": 403,
+      "truth_rows": 1200,
+      "common_time_span_s": 9.971
+    },
+    {
+      "condition": "different",
+      "kind": "10-second excerpt",
+      "imu_records": 2000,
+      "truth_rows": 1000,
+      "common_time_span_s": 9.989990472793579
+    }
+  ],
+  "notes": [
+    "Finite values and 3-axis IMU fields checked",
+    "Sensor timestamps non-decreasing; IMU and ground truth overlap",
+    "Quaternion normalization and proper rotation checked",
+    "These format checks are not quantitative synchronization or attitude accuracy validation",
+    "No images or identifiable participant fields included"
+  ],
+  "sample_size_bytes_before_checksum": 12683341
+}

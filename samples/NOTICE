@@ -1,0 +1,12 @@
+CoWear-Wrist preview data
+
+Source dataset: zyshe/CoWear
+Source revision: 4eae17cf80d86da0f8370d7be5eeb5ccaf00e569
+Upstream dataset card: https://huggingface.co/datasets/zyshe/CoWear
+The upstream dataset card declares Apache License 2.0. A copy is included as LICENSE.
+Retain upstream attribution and applicable notices when redistributing these data.
+
+Preview modifications: watch-role selection; filename normalization; cropping to
+10 <= aligned session time < 20 seconds for the two short excerpts. Full-session
+files preserve the source file contents. No resampling or extra time shifts.
+This preview is not the complete curated paper benchmark package.

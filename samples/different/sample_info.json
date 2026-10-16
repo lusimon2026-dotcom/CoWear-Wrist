@@ -1,0 +1,18 @@
+{
+  "condition": "different",
+  "source_session_id": "session_20260905_160231_304",
+  "excerpt_interval_s": [
+    10,
+    20
+  ],
+  "interval_convention": "10 <= original aligned session time < 20 seconds",
+  "preview_only": true,
+  "official_session_split": "test",
+  "watch_source": "direct",
+  "sample_quality": "complete",
+  "imu_records": 2000,
+  "groundtruth_rows": 1000,
+  "processing": "Time crop and watch-role selection only. Original values, timestamps and interpolation flags preserved. No resampling or second time shift.",
+  "source_dataset": "zyshe/CoWear",
+  "source_revision": "4eae17cf80d86da0f8370d7be5eeb5ccaf00e569"
+}

@@ -1,0 +1,48 @@
+{
+  "schema": "ricloc.device_extrinsic_calibration.v1",
+  "coordinate_convention": {
+    "vectors": "column vectors",
+    "rotation_matrix_marker_from_imu": "v_marker = R_marker_from_imu @ v_imu",
+    "world_pose_composition": "R_world_from_imu(t) = R_world_from_marker(t) @ R_marker_from_imu",
+    "quaternion_order": "xyzw"
+  },
+  "source": "released aligned IMU and ground-truth streams",
+  "sample_rate_hz": 100.0,
+  "roles": {
+    "watch": {
+      "status": "ok",
+      "role": "watch",
+      "rotation_matrix_marker_from_imu": [
+        [
+          -0.7277536601,
+          -0.6825609918,
+          0.0669709086
+        ],
+        [
+          0.3594345878,
+          -0.2964147946,
+          0.8848418201
+        ],
+        [
+          -0.5841073423,
+          0.6680185342,
+          0.4610529804
+        ]
+      ],
+      "quaternion_marker_from_imu_xyzw": [
+        -0.1640184091,
+        0.4925154528,
+        0.7882292552,
+        0.3304862046
+      ],
+      "quality": {
+        "angular_samples": 15151.0,
+        "gyro_direction_cosine": 0.9549723335617352,
+        "gravity_direction_cosine": 0.8426771649593308,
+        "half_rotation_delta_deg": 6.169406328594467
+      },
+      "sample_rate_hz": 100.0,
+      "method": "robust Wahba fit from marker angular velocity and gravity directions"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "condition": "same",
+  "source_session_id": "session_20260706_121108",
+  "preview_only": true,
+  "sample_kind": "complete session",
+  "official_session_split": "test",
+  "watch_source": "relay",
+  "sample_quality": "missing_minor",
+  "overlap_duration_s": 100.791668,
+  "source_dataset": "zyshe/CoWear",
+  "source_revision": "4eae17cf80d86da0f8370d7be5eeb5ccaf00e569",
+  "processing": "Original watch IMU, watch-only ground truth and session rotation calibration copied without changing values or timestamps; filenames normalized only."
+}
