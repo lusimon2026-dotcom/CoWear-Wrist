@@ -1,8 +1,8 @@
 # CoWear-Wrist
 
-Dataset and benchmarks for inertial localization under natural wrist motion.
+A smartwatch inertial dataset for localization under natural wrist motion.
 
-> **Preview release.** This repository currently contains two complete example sessions and their short excerpts. The complete curated dataset and benchmark resources are planned for release after paper acceptance. These examples are not the full dataset or an evaluation split.
+> **Preview release.** This repository currently contains two complete example sessions and their short excerpts. The complete curated dataset and accompanying documentation are planned for release after paper acceptance. These examples are not the full dataset or an evaluation split.
 
 ## Wrist-motion conditions
 
@@ -37,10 +37,10 @@ See [PREVIEW_VALIDATION.json](PREVIEW_VALIDATION.json) for the format checks and
 
 ## Planned release
 
-- Complete curated watch dataset and data documentation.
-- Frozen public splits and benchmark evaluation lists, including documented exclusions.
-- Reproducible preprocessing, scoring and baseline evaluation resources.
-- Versioned benchmark results and citation information.
+- Complete curated smartwatch IMU data, corresponding motion-capture pose references, and alignment and quality metadata.
+- Data format, timestamp, coordinate-frame, and calibration documentation.
+- Frozen training, validation, and test session lists, with the exclusions used in the paper documented.
+- Lightweight data-reading examples, file checksums, version information, and paper citation.
 
 ## Reference conventions
 
@@ -52,4 +52,4 @@ These preview excerpts were selected from the existing CoWear data (`zyshe/CoWea
 
 ## Project status
 
-The complete CoWear-Wrist paper benchmark package is not yet downloadable from this repository. Release timing is planned for after paper acceptance and will be updated here.
+The complete curated CoWear-Wrist dataset is not yet downloadable from this repository. Release timing is planned for after paper acceptance and will be updated here.
